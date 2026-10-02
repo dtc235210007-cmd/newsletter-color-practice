@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGym Career - Bệ phóng sự nghiệp Lập trình viên</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css">
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Roboto', sans-serif; background-color: #f8f9fa; }
+        .hero-section {
+            background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+            color: #fff;
+            padding: 90px 0 70px 0;
+        }
+        .section-heading { font-weight: 700; margin-bottom: 2rem; color: #1a237e; }
+        .card-feature {
+            border-radius: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-feature:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+        }
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark indigo darken-3 fixed-top z-depth-1">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">
+                <i class="fas fa-graduation-cap mr-2"></i>CodeGym Career
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#hero">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#loi-ich">Lợi ích</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lo-trinh">Lộ trình</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cam-nhan">Học viên</a></li>
+                    <li class="nav-item ml-lg-3">
+                        <a href="#dang-ky" class="btn btn-warning btn-rounded btn-sm font-weight-bold m-0 waves-effect waves-light">Tư vấn ngay</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="hero" class="hero-section text-center text-md-left mt-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 mb-4 mb-md-0">
+                    <span class="badge badge-pill badge-warning px-3 py-2 mb-3 text-uppercase font-weight-bold">Dự án Nghề nghiệp 4.0</span>
+                    <h1 class="display-4 font-weight-bold mb-3">Chuyển ngành Lập trình vững chắc từ con số 0</h1>
+                    <p class="lead mb-4 text-white-50">Đồng hành cùng bạn từ lúc bắt đầu học code cho đến khi ký hợp đồng chính thức tại các doanh nghiệp công nghệ hàng đầu.</p>
+                    <a href="#dang-ky" class="btn btn-warning btn-lg btn-rounded font-weight-bold shadow-lg mr-2 waves-effect">Đăng ký lộ trình</a>
+                    <a href="#loi-ich" class="btn btn-outline-white btn-lg btn-rounded waves-effect">Tìm hiểu thêm</a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="card z-depth-3 rounded-lg overflow-hidden border-0">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80" alt="CodeGym Career Team" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LỢI ÍCH DÀNH CHO BẠN ================= -->
+    <section id="loi-ich" class="py-5">
+        <div class="container py-4 text-center">
+            <h2 class="section-heading">Vì sao chọn CodeGym Career?</h2>
+            <p class="text-muted w-responsive mx-auto mb-5">Hệ sinh thái đào tạo thực chiến và kết nối việc làm chuyên sâu cho lập trình viên tương lai.</p>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card card-feature h-100 p-4 z-depth-1 border-0">
+                        <div class="icon-circle bg-primary text-white mx-auto shadow">
+                            <i class="fas fa-briefcase fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">Cam kết việc làm</h4>
+                        <p class="text-muted">100% học viên tốt nghiệp đạt chuẩn được giới thiệu và bảo trợ việc làm bằng văn bản hợp đồng rõ ràng.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card card-feature h-100 p-4 z-depth-1 border-0">
+                        <div class="icon-circle bg-info text-white mx-auto shadow">
+                            <i class="fas fa-laptop-code fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">Dự án thực tế</h4>
+                        <p class="text-muted">Luyện tập theo mô hình Bootcamp cường độ cao, làm việc trực tiếp trên các bài toán thực tiễn của doanh nghiệp.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card card-feature h-100 p-4 z-depth-1 border-0">
+                        <div class="icon-circle bg-warning text-white mx-auto shadow">
+                            <i class="fas fa-user-tie fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold mb-3">Huấn luyện 1-1</h4>
+                        <p class="text-muted">Được kèm cặp trực tiếp bởi các Senior Developer & Tech Lead giàu kinh nghiệm trong suốt quá trình học.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LỘ TRÌNH 3 BƯỚC ================= -->
+    <section id="lo-trinh" class="py-5 bg-white">
+        <div class="container py-4 text-center">
+            <h2 class="section-heading">Lộ trình bứt phá sự nghiệp</h2>
+            <p class="text-muted mb-5">Quy trình đào tạo bài bản được tối ưu hoá theo chuẩn năng lực ngành IT.</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="p-3">
+                        <div class="display-3 font-weight-bold text-primary mb-2">01</div>
+                        <h5 class="font-weight-bold">Nền tảng & Tư duy</h5>
+                        <p class="text-muted">Làm chủ thuật toán, tư duy lập trình và cấu trúc dữ liệu nền tảng.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="p-3">
+                        <div class="display-3 font-weight-bold text-info mb-2">02</div>
+                        <h5 class="font-weight-bold">Chuyên sâu & Dự án</h5>
+                        <p class="text-muted">Làm chủ Framework hiện đại, kiến trúc ứng dụng web và kỹ năng làm việc nhóm Agile/Scrum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="p-3">
+                        <div class="display-3 font-weight-bold text-warning mb-2">03</div>
+                        <h5 class="font-weight-bold">Phỏng vấn & Đi làm</h5>
+                        <p class="text-muted">Tối ưu CV, luyện Mock Interview và nhận việc tại mạng lưới hơn 300+ đối tác công nghệ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ĐÁNH GIÁ HỌC VIÊN ================= -->
+    <section id="cam-nhan" class="py-5">
+        <div class="container py-4 text-center">
+            <h2 class="section-heading">Học viên nói gì về chúng tôi</h2>
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-4 z-depth-1 border-0 h-100">
+                        <p class="text-muted font-italic mb-4">"Từ một người làm kinh doanh chưa biết một dòng code nào, mô hình thực hành kỷ luật tại đây đã giúp mình tự tin ứng tuyển vị trí Backend Developer chỉ sau 6 tháng."</p>
+                        <h6 class="font-weight-bold mb-1 text-primary">Nguyễn Văn Bình</h6>
+                        <small class="text-muted">Backend Developer @ Tech Solutions</small>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-4 z-depth-1 border-0 h-100">
+                        <p class="text-muted font-italic mb-4">"Chương trình đào tạo bám rất sát thực tế dự án doanh nghiệp. Huấn luyện viên hỗ trợ nhiệt tình từng dòng code giúp mình bù đắp nhanh các lỗ hổng kiến thức."</p>
+                        <h6 class="font-weight-bold mb-1 text-primary">Trần Hoàng Long</h6>
+                        <small class="text-muted">Fullstack Developer @ Global Software</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FORM ĐĂNG KÝ (CTA) ================= -->
+    <section id="dang-ky" class="py-5 primary-color darken-3 text-white">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="font-weight-bold mb-3">Sẵn sàng khởi động sự nghiệp IT?</h2>
+                    <p class="lead text-white-50 mb-4">Để lại thông tin để nhận lộ trình chi tiết và bài kiểm tra tư duy lập trình hoàn toàn miễn phí.</p>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2"><i class="fas fa-check-circle text-warning mr-2"></i> Tư vấn định hướng ngành nghề miễn phí</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-warning mr-2"></i> Nhận trọn bộ cẩm nang chuyển ngành CNTT</li>
+                        <li><i class="fas fa-check-circle text-warning mr-2"></i> Hỗ trợ học bổng lên đến 30% học phí</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card z-depth-3 border-0 text-dark">
+                        <div class="card-body p-4 p-md-5">
+                            <h4 class="font-weight-bold text-center text-primary mb-4">Đăng ký nhận tư vấn</h4>
+                            <form onsubmit="event.preventDefault(); alert('Cảm ơn bạn! Đăng ký thành công.');">
+                                <div class="md-form mb-4">
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <input type="text" id="name" class="form-control" required>
+                                    <label for="name">Họ và tên của bạn</label>
+                                </div>
+                                <div class="md-form mb-4">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="email" id="email" class="form-control" required>
+                                    <label for="email">Địa chỉ Email</label>
+                                </div>
+                                <div class="md-form mb-4">
+                                    <i class="fas fa-phone prefix grey-text"></i>
+                                    <input type="tel" id="phone" class="form-control" required>
+                                    <label for="phone">Số điện thoại</label>
+                                </div>
+                                <button type="submit" class="btn btn-warning btn-block btn-rounded font-weight-bold py-2 waves-effect">Gửi thông tin ngay</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+        <div class="container text-center text-md-left py-3">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold"><i class="fas fa-graduation-cap mr-2"></i>CodeGym Career</h5>
+                    <p class="text-muted">Hệ thống đào tạo lập trình hiện đại hàng đầu dành cho người mới bắt đầu và người chuyển ngành.</p>
+                </div>
+                <div class="col-md-6 mb-md-0 mb-3 text-md-right">
+                    <h6 class="text-uppercase font-weight-bold">Kết nối với chúng tôi</h6>
+                    <a href="#" class="btn-floating btn-sm btn-fb text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn-floating btn-sm btn-yt text-white mr-2"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="btn-floating btn-sm btn-li text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            &copy; 2026 Bản quyền thuộc về CodeGym Career. Mọi quyền được bảo lưu.
+        </div>
+    </footer>
+
+    <!-- ================= JAVASCRIPT LIBRARIES ================= -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
