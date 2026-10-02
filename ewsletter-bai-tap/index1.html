@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter - Phiên bản 1 (Corporate Blue)</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #026AA7;
+            --secondary-color: #4A5568;
+            --accent-color: #FF8B00;
+            --hover-color: #055A8C;
+        }
+
+        .primary-bg { background-color: var(--primary-color) !important; }
+        .secondary-bg { background-color: var(--secondary-color) !important; }
+        .accent-bg { background-color: var(--accent-color) !important; }
+        .text-primary-color { color: var(--primary-color) !important; }
+        
+        .btn-custom {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            border: none;
+            padding: 10px 24px;
+            font-weight: 600;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.2s;
+        }
+        .btn-custom:hover {
+            background-color: var(--hover-color);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5" style="max-width: 720px;">
+        <header class="text-center mb-4 p-4 rounded primary-bg text-white shadow-sm">
+            <h1 class="fw-bold">Trello Newsletter</h1>
+            <p class="mb-0 opacity-75">Bản tin quản lý công việc và dự án - Phiên bản 01</p>
+        </header>
+
+        <section class="card mb-4 shadow-sm border-0">
+            <div class="card-body p-4">
+                <h2 class="card-title text-primary-color fw-bold">Chào mừng bạn đến với bản tin mới!</h2>
+                <p class="card-text text-secondary">
+                    Khám phá cách tối ưu hóa không gian làm việc với các bảng màu trực quan và tính năng tự động hóa mới nhất.
+                </p>
+                <a href="#" class="btn btn-custom mt-2">Khám phá tính năng mới</a>
+            </div>
+        </section>
+
+        <section class="row mb-4 g-3">
+            <div class="col-md-6">
+                <div class="card h-100 secondary-bg text-white border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold">Quản lý linh hoạt</h4>
+                        <p class="card-text opacity-90">Sắp xếp các thẻ công việc trực quan, giúp nhóm luôn đồng bộ mục tiêu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 accent-bg text-white border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold">Tính năng nổi bật</h4>
+                        <p class="card-text opacity-90">Tích hợp màu sắc giúp nhận diện trạng thái nhiệm vụ chỉ trong nháy mắt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center p-3 rounded secondary-bg text-white shadow-sm">
+            <p class="mb-0 small">&copy; 2026 Trello Newsletter. Mọi quyền được bảo lưu.</p>
+        </footer>
+    </div>
+</body>
+</html>
